@@ -621,6 +621,71 @@ a:hover {
     }
 }
 
+/* Content Sections */
+.content-section {
+    margin-bottom: var(--spacing-16);
+}
+
+.content-section h2 {
+    border-bottom: 2px solid var(--primary-blue);
+    padding-bottom: var(--spacing-2);
+    margin-bottom: var(--spacing-6);
+}
+
+.content-section h3 {
+    margin-top: var(--spacing-8);
+    margin-bottom: var(--spacing-4);
+    color: var(--gray-800);
+}
+
+.content-section h4 {
+    margin-top: var(--spacing-6);
+    margin-bottom: var(--spacing-3);
+    color: var(--gray-700);
+}
+
+.content-section p {
+    margin-bottom: var(--spacing-5);
+    line-height: 1.7;
+}
+
+.content-section ul, .content-section ol {
+    margin-bottom: var(--spacing-5);
+    padding-left: var(--spacing-6);
+}
+
+.content-section li {
+    margin-bottom: var(--spacing-2);
+    color: var(--gray-600);
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #fef7cd;
+    border-color: var(--warning);
+    color: #92400e;
+    padding: var(--spacing-4);
+    border-radius: var(--radius-md);
+    margin: var(--spacing-4) 0;
+    border-left: 4px solid var(--warning);
+}
+
+/* FAQ Section Styles */
+.faq-section {
+    display: grid;
+    gap: var(--spacing-4);
+}
+
+.faq-section .review-card h4 {
+    color: var(--primary-blue);
+    margin-bottom: var(--spacing-3);
+}
+
+/* Background Light */
+.bg-light {
+    background-color: var(--gray-50);
+}
+
 /* Utility Classes */
 .text-center {
     text-align: center;
